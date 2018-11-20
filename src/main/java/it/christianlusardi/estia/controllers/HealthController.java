@@ -4,6 +4,14 @@ import it.christianlusardi.estia.responses.BaseResponse;
 import spark.Request;
 import spark.Response;
 
+
+/**
+ * Controller for Health service
+ * 
+ * @author Christian Lusardi
+ * @ersion 1.0
+ *
+ */
 public class HealthController {
 	
 	public static BaseResponse health(Request req, Response res) {
